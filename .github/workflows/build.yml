@@ -2,7 +2,9 @@ name: Build Plugin
 
 on:
   push:
-    branches: main
+    branches: 
+      - main
+      - update-mob
   pull_request:
     types: [opened, synchronize, reopened]
 
