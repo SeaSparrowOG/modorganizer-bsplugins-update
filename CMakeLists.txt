@@ -4,6 +4,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_INSTALL_PREFIX "C:/bsplugins" CACHE PATH "Install path prefix")
 
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Release CACHE STRING "Choose Release or Debug build" FORCE)
+endif()
 
 if(DEFINED DEPENDENCIES_DIR)
 	include(${DEPENDENCIES_DIR}/modorganizer_super/cmake_common/mo2.cmake)
