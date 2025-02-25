@@ -30,18 +30,22 @@ if(MSVC)
 		PRIVATE
 			/bigobj # increase number of sections in .obj file
 			/W4     # level 4 warnings
-			/WX     # treat all compiler warnings as errors
+			#/WX     # treat all compiler warnings as errors #No the fuck you won't
 			/wd4201 # nonstandard extension used: nameless struct/union
 			/wd4458 # declaration of 'identifier' hides class member
 	)
 endif()
 
+#Fuck you.
+set(MO2_INSTALL_LIBS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../../modorganizer_super/bsatk" CACHE PATH "Install path for MO2 libraries" FORCE)
+
 mo2_configure_plugin(
 	bsplugins
 	WARNINGS OFF
 	PRIVATE_DEPENDS
-		bsatk lootcli uibase
+		lootcli uibase
 		libbsarch boost zlib
 		Qt::WebEngineWidgets
+		bsatk
 )
 mo2_install_target(bsplugins)

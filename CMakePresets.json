@@ -14,6 +14,14 @@
           "type": "PATH",
           "value": "${sourceDir}/../.."
         },
+        "MO2_SUPER_PATH": {
+          "type": "PATH",
+          "value": "${sourceDir}/../../modorganizer_super"
+        },
+        "MO2_INSTALL_LIBS_PATH": {
+          "type": "PATH",
+          "value": "${sourceDir}/../../modorganizer_super"
+        },
         "BOOST_ROOT": {
           "type": "PATH",
           "value": "${sourceDir}/../../boost_1_85_0"
