@@ -20,7 +20,7 @@ set(CODEGEN_SCRIPT ${CMAKE_CURRENT_SOURCE_DIR}/MakeFormParser.py)
 foreach(GAME SSE)
 	set(INPUT_FILE ${esp_json_SOURCE_DIR}/data/${GAME}.json)
 	set(OUTPUT_FILE ${CMAKE_CURRENT_BINARY_DIR}/include/FormParser.${GAME}.inl)
-	add_custom_command(
+	add_custom_command(      #Note: Occasionally fails locally?
 		OUTPUT ${OUTPUT_FILE}
 	    COMMAND
 			${Python_EXECUTABLE}

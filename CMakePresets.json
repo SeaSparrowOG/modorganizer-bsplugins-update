@@ -8,63 +8,63 @@
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": {
           "type": "STRING",
-          "value": "Release"
+          "value": "Debug"
         },
         "DEPENDENCIES_DIR": {
           "type": "PATH",
-          "value": "${sourceDir}/../.."
+          "value": "C:/dev/mob/build"
         },
         "BOOST_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../boost_1_83_0"
+          "value": "C:/dev/mob/build/boost_1_85_0"
         },
         "BOOST_LIBRARYDIR": {
           "type": "PATH",
-          "value": "${sourceDir}/../../boost_1_83_0/lib64-msvc-14.3/lib"
+          "value": "C:/dev/mob/build/boost_1_85_0/lib64-msvc-14.3/lib"
         },
-        "FMT_ROOT": {
+        "DIRECTXTEX_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../fmt-8.1.1"
+          "value": "C:/dev/mob/build/DirectXTex"
         },
         "SPDLOG_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../spdlog-v1.10.0"
+          "value": "C:/dev/mob/build/spdlog-v1.14.1"
         },
         "LOOT_PATH": {
           "type": "PATH",
-          "value": "${sourceDir}/../../libloot-0.22.1-win64"
+          "value": "C:/dev/mob/build/libloot-0.23.0-win64"
         },
         "LZ4_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../lz4-v1.9.4"
+          "value": "C:/dev/mob/build/lz4-v1.9.4"
         },
         "QT_ROOT": {
           "type": "PATH",
-          "value": "C:/Qt/6.5.3/msvc2019_64"
+          "value": "C:/Qt/6.7.1/msvc2019_64"
         },
         "ZLIB_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../zlib-v1.3"
+          "value": "C:/dev/mob/build/zlib-v1.3.1"
         },
         "PYTHON_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../python-3.11.5"
+          "value": "C:/dev/mob/build/python-3.12.3"
         },
         "SEVENZ_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../7zip-23.01"
+          "value": "C:/dev/mob/build/7zip-24.05"
         },
         "LIBBSARCH_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../libbsarch-0.0.9-release-x64"
+          "value": "C:/dev/mob/build/libbsarch-0.0.12-release-x64"
         },
         "BOOST_DI_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../di"
+          "value": "C:/dev/mob/build/di"
         },
         "GTEST_ROOT": {
           "type": "PATH",
-          "value": "${sourceDir}/../../googletest"
+          "value": "C:/dev/mob/build/googletest"
         }
       }
     }

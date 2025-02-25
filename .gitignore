@@ -1,1 +1,4 @@
 vsbuild/
+/.vs
+/build
+/src/bsplugins_en.ts
