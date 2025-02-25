@@ -779,14 +779,14 @@ bool PluginList::hasNoRecords(const QString& name) const
 
 int PluginList::formVersion(const QString& name) const
 {
-  //const auto plugin = findPlugin(name);
-  return 44;
+  const auto plugin = findPlugin(name);
+  return plugin ? 0 : -1;
 }
 
 float PluginList::headerVersion(const QString& name) const
 {
-  //const auto plugin = findPlugin(name);
-  return 1.7f;
+  const auto plugin = findPlugin(name);
+  return plugin ? 0.0f : -1.0f;
 }
 
 QString PluginList::author(const QString& name) const
