@@ -116,6 +116,10 @@ public:
   [[nodiscard]] bool isBlueprintFlagged(const QString& name) const override;
   [[nodiscard]] bool hasNoRecords(const QString& name) const override;
 
+  // SeaSparrow - I don't know when these were added, but I will commit varius war crimes.
+  [[nodiscard]] int formVersion(const QString& name) const override;
+  [[nodiscard]] float headerVersion(const QString& name) const override;
+
   [[nodiscard]] QString author(const QString& name) const override;
   [[nodiscard]] QString description(const QString& name) const override;
 

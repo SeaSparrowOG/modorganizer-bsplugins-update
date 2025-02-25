@@ -106,7 +106,7 @@ bool SingleRecordParser::Form(TESFile::FormData form)
     return !m_RecordFound;
   }
 
-  return false;
+  //return false; - Unreachable
 }
 
 bool SingleRecordParser::Chunk(TESFile::Type type)
